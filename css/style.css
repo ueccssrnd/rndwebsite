@@ -1,0 +1,1671 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Helvetia Neue', 'Segoe UI','Myriad Pro',sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+p {
+  
+  color: white;
+  font-size: 16px;
+  font-family: 'Segoe UI','Myriad Pro',sans-serif;
+}
+
+.border {
+  height: 30%;
+}
+
+nav.container {
+  background: #171f28;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+#navigator {
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+  z-index: 100;
+}
+
+#navigator li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 100%;
+}
+
+#navigator > li:last-child {
+  float: right;
+}
+
+#navigator a:link, #navigator a:visited {
+  font-family: 'Segoe UI','Myriad Pro',sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  color: #FFF;
+  padding: 10px; 
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#navigator a:hover, #navigator a:focus {
+  color: #171f28;
+  text-decoration: none;
+  background: #fff;
+}
+
+#navigator > li:last-child a:link,
+#navigator > li:last-child a:visited {
+  color: #297fb8;
+  padding: 0;
+}
+
+#navigator > li:last-child > a:hover {
+  color: #3598dc;
+  text-decoration: underline;
+  background: none;
+}
+.slide {
+  height: 100%;
+  padding-top:35px;
+}
+
+/* Home */
+#home { 
+  background-image: url('../img/stars.png');
+  background-color: #0d3250;
+  height: 80%;
+}
+
+#home .container {
+  
+  
+
+}
+
+#intro {
+  
+  text-align: justify;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+#rocket img {
+  
+  position: relative;
+  max-width: 70%;
+  left: 100px;
+  top: 20px;
+
+  }
+
+#small-comet {
+  position: relative;
+  top: 30px;
+  left: -100px;
+  z-index: 0;
+
+}
+
+#big-comet {
+  top: -10px;
+  position: relative;
+  left: 200px;
+  z-index: 0;
+}
+
+
+#start-the-journey {
+
+  position: relative;
+  left: 560px;
+  top: 110px;
+  color: #fff;
+  
+}
+
+#down-button {
+  
+  text-align: center;
+  width: 140px;
+  margin: 80px auto;
+}
+
+#home-border {
+  
+  background: url('../img/home-border.png');
+  background-repeat: repeat-x;
+  background-color: #3498db;
+}
+/* End of Home */
+
+/* Works */
+#works {  
+  background: url('../img/works.png');
+  background-color: #3699d9;
+    background-repeat: repeat-x;
+  height: 85%;
+  width: 100%;
+}
+
+#works-left-button, #works-right-button {
+  float:left;
+  width: 10%;
+  height: 80%;
+  text-align: center;
+}
+
+#works-slideshow-container {
+  float:left;
+  width: 80%;
+  height: 80%;
+  
+}
+
+#works-slideshow-pictures {
+  display: table;
+  width: 99%;
+  height: 100%;
+  margin: 0px auto;
+  z-index: 99;
+}
+
+#works-left-button a:link, #works-right-button a:link,#works-left-button a:visited, #works-right-button a:visited{
+  text-decoration: none;
+  
+}
+
+
+#works-prev {
+  display: inline-block;
+  background: url('../img/works-arrows-sprite.png');
+  width: 86px;
+  height: 86px;
+  margin: 150% auto;
+  
+}
+
+#works-prev a {
+  display: inline-block;
+  width: 86px;
+  height: 86px;
+  text-decoration: none;
+  background: url('../img/works-arrows-sprite.png')-172px 0px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  
+}
+
+#works-prev a:hover {
+  
+  background: url('../img/works-arrows-sprite.png') -172px 0px;
+  opacity: 1;
+  
+}
+
+#works-next {
+  display: inline-block;
+  background: url('../img/works-arrows-sprite.png') -86px 0px;
+  width: 86px;
+  height: 86px;
+  margin: 150% auto;
+  
+}
+
+#works-next a {
+  display: inline-block;
+  width: 86px;
+  height: 86px;
+  text-decoration: none;
+  background: url('../img/works-arrows-sprite.png')-258px 0px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+}
+
+#works-next a:hover {
+  
+  background: url('../img/works-arrows-sprite.png') -258px 0px;
+  opacity: 1;
+
+}
+
+#works-slideshow-container {
+  width:80%;
+  float:left;
+  text-align: center;
+}
+
+.works-thumbnail{
+  float:left;
+  margin: 5px;
+  width: 240px;
+  height: 200px;
+  
+}
+
+#battery {
+  
+  background: url('../img/screenshots/thumbnails/battery-thumbnail.png');
+
+}
+
+#cprrs {
+  
+  background: url('../img/screenshots/thumbnails/cprrs-thumbnail.png');
+
+}
+
+#dlpc {
+  
+  background: url('../img/screenshots/thumbnails/dlpc-thumbnail.png');
+
+}
+
+#forrest {
+  
+  background: url('../img/screenshots/thumbnails/forrest-thumbnail.png');
+
+}
+
+#fors {
+  
+  background: url('../img/screenshots/thumbnails/fors-thumbnail.png');
+
+}
+
+#msi {
+  
+  background: url('../img/screenshots/thumbnails/msi-thumbnail.png');
+
+}
+
+#recruitment {
+  
+  background: url('../img/screenshots/thumbnails/recruitment-thumbnail.png');
+  
+}
+
+#uesce {
+
+  background: url('../img/screenshots/thumbnails/uesce-thumbnail.png');
+  
+}
+
+#tnt {
+  
+  background: url('../img/screenshots/thumbnails/tnt-thumbnail.png');
+
+}
+
+#rnd-passers-2013 {
+  
+  background: url('../img/screenshots/thumbnails/rnd-passers-2013-thumbnail.png');
+
+}
+
+#recruitment-system-2013 {
+  
+  background: url('../img/screenshots/thumbnails/recruitment-system-2013-thumbnail.png');
+
+}
+
+#recruitment-web-2013 {
+  
+  background: url('../img/screenshots/thumbnails/recruitment-web-2013-thumbnail.png');
+
+}
+
+#recruitment-multi-2013 {
+  
+  background: url('../img/screenshots/thumbnails/recruitment-multi-2013-thumbnail.png');
+
+}
+
+#recruitment-docu-2013{
+
+  background: url('../img/screenshots/thumbnails/recruitment-docu-2013-thumbnail.png');
+  
+}
+
+#recruitment-training-2013{
+
+  background: url('../img/screenshots/thumbnails/recruitment-training-2013-thumbnail.png');
+  
+}
+
+#cloud-border {
+  
+  background: url('../img/cloud-border.png');
+  background-repeat: repeat-x;
+
+}
+
+
+
+/*End of Works*/
+
+/* About */
+
+
+#about {
+  
+  background: url('../img/about.png');
+  background-repeat: repeat-x;
+  background-color: #171f28;
+  color: #171f28;
+  text-align: justify;
+}
+
+#about p {
+  
+  color: #171f28;
+
+}
+
+#about .span4 img {
+  position: relative;
+  left: 100px;
+}
+
+#programming-icons img {
+  
+  position: relative;
+  
+}
+
+#icon-container {
+  position: relative;
+  top: -350px;
+  left: 140px;
+  width: 250px;
+  height: 180px;
+  
+}
+/*.icon {
+  
+  visibility: hidden;
+
+}*/
+
+
+#programming-icons img:nth-child(2) {
+  
+  top: -340px;
+  left: 200px;
+}
+
+#programming-icons img:nth-child(3) {
+  
+  top: -300px;
+  left: 110px;
+}
+
+#programming-icons img:nth-child(4){
+  
+  top: -280px;
+  left: 110px;
+
+}
+
+#programming-icons img:nth-child(5){
+  
+  top:-300px;
+  left: 110px;
+}
+
+#programming-icons img:nth-child(6){
+  top: -260px;
+  left: 60px;
+
+  }
+
+#programming-icons img:nth-child(7){
+
+  top: -340px;
+  left: -10px;
+
+}
+
+#programming-icons img:nth-child(8){
+
+  top: -370px;
+  left: 300px;
+
+}
+#programming-icons img:nth-child(9){
+
+  top: -330px;
+  left: 280px;
+
+}
+
+#black-border {
+  
+  height: 10%;
+  background: #171f28;
+}
+
+#about-border {
+  
+  background-image: url('../img/rock-border.png');
+  background-repeat: repeat-x;
+  background-color: #663300;
+}
+
+#brown-border {
+  
+  height: 10%;
+  background: #663300;
+
+}
+/* End of About*/
+
+/* Members */
+#members{
+  
+  background-image: url('../img/fossil.png');
+  background-color: #663300;
+
+}
+
+#members .container {
+    
+  text-align: center;
+
+}
+
+
+#members-gallery {
+  height: 80%;
+  width: 100%;
+  margin-left: 0;
+
+}
+
+#members-left-button, #members-right-button  {
+
+  width:10%;
+  height: 100%;
+  float:left;
+  text-align: center;
+  
+}
+
+#members-left-button a:link, #members-right-button a:link,#members-left-button a:visited, #members-right-button a:visited{
+  text-decoration: none;
+  
+}
+
+
+#members-prev {
+  display: inline-block;
+  background: url('../img/arrows-sprite.png');
+  width: 86px;
+  height: 86px;
+  margin: 150% auto;
+  
+}
+
+#members-prev a {
+  display: inline-block;
+  width: 86px;
+  height: 86px;
+  text-decoration: none;
+  background: url('../img/arrows-sprite.png')-172px 0px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  
+}
+
+#members-prev a:hover {
+  
+  background: url('../img/arrows-sprite.png') -172px 0px;
+  opacity: 1;
+  
+}
+
+#members-next {
+  display: inline-block;
+  background: url('../img/arrows-sprite.png') -86px 0px;
+  width: 86px;
+  height: 86px;
+  margin: 150% auto;
+  
+}
+
+#members-next a {
+  display: inline-block;
+  width: 86px;
+  height: 86px;
+  text-decoration: none;
+  background: url('../img/arrows-sprite.png')-258px 0px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+}
+
+#members-next a:hover {
+  
+  background: url('../img/arrows-sprite.png') -258px 0px;
+  opacity: 1;
+
+}
+
+#members-slideshow-container {
+  width:80%;
+  float:left;
+  text-align: center;
+}
+
+#members-slideshow-pictures {
+  
+  z-index: 99;
+  
+}
+#members-slideshow-pictures .cycle-slideshow {
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.leaders-picture {
+  position: relative;
+  display: inline-block;
+  overflow:hidden;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 3px solid white;
+}
+
+.leaders-picture a {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  transition-property: opacity;
+    transition-duration: 0.3s;
+}
+
+.leaders-picture-container .cycle-slide .cycle-slide-active {
+  
+  width: 100%;
+  height: 100%;
+  
+}
+
+#aaron {
+  
+  background: url('../img/rnd-members/leaders-sprite.png') 0 0;
+  top: 90px;
+  left: 150px;
+  
+}
+
+#aaron a {
+  
+  text-decoration: none;
+  background: url('../img/rnd-members/leaders-sprite.png') 0 300px;
+  transition-property: opacity;
+  opacity: 0;
+    
+}
+
+#aaron a:hover {
+  
+  text-decoration: none;
+  background: url('../img/rnd-members/leaders-sprite.png') 0 300px;
+  opacity: 1;
+}
+
+
+#gil {
+  
+  background: url('../img/rnd-members/leaders-sprite.png') 300px 0;
+  top: 90px;
+  left: 180px;
+  
+}
+
+
+#gil a {
+  
+  text-decoration: none;
+  background: url('../img/rnd-members/leaders-sprite.png') 300px 300px;
+  transition-property: opacity;
+  opacity: 0;
+    
+}
+
+#gil a:hover {
+  
+  text-decoration: none;
+  background: url('../img/rnd-members/leaders-sprite.png') 300px 300px;
+  opacity: 1;
+}
+
+.systems-picture, .web-picture, .multimedia-picture, .docu-picture, .training-picture, .faculty-picture {
+  
+  position: relative;
+  display: inline-block;
+  overflow:hidden;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border: 3px solid white;
+  
+}
+
+.systems-picture a, .web-picture a, .multimedia-picture a, .docu-picture a, .training-picture a, .faculty-picture p{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  transition-property: opacity;
+    transition-duration: 0.3s;
+  opacity: 0;
+  
+}
+
+.systems-picture a:hover, .web-picture a:hover, .multimedia-picture a:hover, .docu-picture a:hover, .training-picture a:hover, .faculty-picture p:hover{
+  
+  text-decoration: none;
+
+}
+
+/* SYSTEMS DIVISION*/
+#daryll  {
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px 0px;
+  
+}
+
+#daryll a {
+  
+  background: url('../img/rnd-members/members-sprite.png')0px -150px;
+
+}
+
+#daryll a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px -150px;
+  opacity: 1;
+
+}
+
+#karl {
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px 0px;
+
+}
+
+#karl a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -150px;
+
+}
+
+#karl a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -150px;
+  opacity: 1;
+}
+
+#rea{
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px 0px;
+  
+}
+
+#rea a{
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px -150px;
+  
+}
+#rea a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px -150px;
+  opacity: 1;
+}
+
+#tabucanon {
+
+  background: url('../img/rnd-members/members-sprite.png') -450px 0px;
+  
+}
+
+#tabucanon a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -450px -150px;
+
+}
+
+#tabucanon a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -450px -150px;
+  opacity: 1;
+}
+
+#jarrie {
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px 0px;
+  
+}
+
+#jarrie a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px -150px;
+
+}
+
+#jarrie a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px -150px;
+  opacity: 1;
+  
+}
+
+#pippin{
+  
+  
+  background: url('../img/rnd-members/members-sprite.png') -750px 0px;
+
+}
+
+#pippin a  {
+  
+  background: url('../img/rnd-members/members-sprite.png') -750px -150px;
+
+}
+
+#pippin a:hover {
+  
+  
+  background: url('../img/rnd-members/members-sprite.png') -750px -150px;
+  opacity: 1;
+}
+
+#steven{
+  
+  
+  background: url('../img/rnd-members/members-sprite.png') -900px 0px;
+
+}
+
+#steven a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -900px -150px;
+
+} 
+
+#steven a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -900px -150px;
+  opacity: 1;
+  
+}
+
+#neil {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1050px 0px;
+  
+}
+
+#neil a  {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1050px -150px;
+
+}
+
+#neil a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1050px -150px;
+  opacity: 1;
+}
+
+#argomer{
+  
+  background: url('../img/rnd-members/members-sprite.png') -1200px 0px;
+
+}
+#argomer a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1200px -150px;
+  
+}
+ 
+#argomer a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1200px -150px;
+  opacity: 1;
+}
+
+#nikko{
+  
+  background: url('../img/rnd-members/members-sprite.png') -1350px 0px;
+
+}
+
+#nikko a  {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1350px -150px;
+  
+}
+
+#nikko a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1350px -150px;
+  opacity: 1;
+}
+
+#siege {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1500px 0px;
+
+}
+
+#siege a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1500px -150px;
+
+}
+
+#siege a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1500px -150px;
+  opacity: 1;
+}
+
+#rayala{
+  
+  background: url('../img/rnd-members/members-sprite.png') -1650px 0px;
+  
+}
+
+#rayala a  {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1650px -150px;
+
+}
+
+#rayala a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1650px -150px;
+  opacity: 1;
+}
+
+#malaluan {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1800px 0px;
+  
+}
+
+#malaluan a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1800px -150px;
+
+}
+
+#malaluan a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1800px -150px;
+  opacity: 1;
+}
+/*END OF SYSTEMS DIVISION*/
+
+
+/* WEB DIVISION*/
+
+#joey {
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px -300px;
+  
+}
+
+#joey a {
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px -450px;
+
+}
+
+#joey a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px -450px;
+  opacity: 1;
+  
+}
+
+#patrick {
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -300px;
+
+}
+
+#patrick a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -450px;
+
+}
+
+#patrick a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -450px;
+  opacity: 1;
+  
+}
+
+#lugtu{
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px -300px;
+
+}
+
+#lugtu a  {
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px -450px;
+
+}
+
+#lugtu a:hover {
+
+  background: url('../img/rnd-members/members-sprite.png') -300px -450px;
+  opacity: 1;
+}
+
+#adrian{
+  
+  background: url('../img/rnd-members/members-sprite.png') -450px -300px;
+  
+}
+
+#adrian a  {
+  
+  background: url('../img/rnd-members/members-sprite.png') -450px -450px;
+
+}
+
+#adrian a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -450px -450px;
+  opacity: 1;
+  
+}
+
+#alyssa {
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px -300px;
+
+}
+
+#alyssa a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px -450px;
+
+}
+
+#alyssa a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px -450px;
+  opacity: 1;
+}
+
+#tony{
+  
+  background: url('../img/rnd-members/members-sprite.png') -750px -300px;
+
+}
+
+#tony a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -750px -450px;
+
+}
+
+#tony a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -750px -450px;
+  opacity: 1;
+}
+
+#saldi {
+
+  background: url('../img/rnd-members/members-sprite.png') -900px -300px;
+  
+}
+
+#saldi a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -900px -450px;
+
+}
+
+#saldi a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -900px -450px;
+  opacity: 1;
+
+}
+
+#macadangdang{
+  
+  background: url('../img/rnd-members/members-sprite.png') -1050px -300px;
+  
+}
+
+#macadangdang a  {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1050px -450px;
+
+}
+
+#macadangdang a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -1050px -450px;
+  opacity: 1;
+
+}
+/* END OF WEB DIVISION*/
+
+
+/* MULTIMEDIA DIVISION*/
+
+#sean{
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px -600px;
+
+}
+
+#sean a {
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px -750px;
+
+}
+
+#sean a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px -750px;
+  opacity: 1;
+  
+}
+
+#saboriendo{
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -600px;
+
+}
+
+#saboriendo a{
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -750px;
+
+}
+
+#saboriendo a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -750px;
+  opacity: 1;
+}
+
+#abby {
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px -600px;
+  
+}
+
+#abby a{
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px -750px;
+
+}
+
+#abby a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px -750px;
+  opacity: 1;
+}
+
+#chi {
+
+  background: url('../img/rnd-members/members-sprite.png') -450px -600px;
+  
+}
+
+#chi a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -450px -750px;
+
+}
+
+#chi a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -450px -750px;
+  opacity: 1;
+}
+
+#ian {
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px -600px;
+
+}
+
+#ian a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px -750px;
+  
+ }
+
+#ian a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px -750px;
+  opacity: 1;
+}
+
+/* END OF MULTIMEDIA DIVISION*/
+
+
+/* DOCUMENTATION DIVISION*/
+
+#diosa{
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px -900px;
+  
+}
+
+#diosa a {
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px -1050px;
+
+}
+
+#diosa a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px -1050px;
+  opacity: 1;
+}
+
+#jerone{
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -900px;
+
+}
+
+#jerone a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -1050px;
+
+}
+
+#jerone a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -1050px;
+  opacity: 1;
+}
+
+#reymark {
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px -900px;
+
+}
+
+#reymark a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px -1050px;
+  
+ }
+
+#reymark a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px -1050px;
+  opacity: 1;
+
+}
+
+#stef{
+  
+  background: url('../img/rnd-members/members-sprite.png') -450px -900px;
+  
+}
+
+#stef a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -450px -1050px;
+
+}
+
+#stef a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -450px -1050px;
+  opacity: 1;
+}
+
+#florence {
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px -900px;
+
+}
+
+#florence a{
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px -1050px;
+
+}
+
+#florence a:hover{
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px -1050px;
+  opacity:1;
+}
+/* END OF DOCUMENTATION DIVISION*/
+
+
+/* TRAINING DIVISION*/
+
+#jm {
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px -1200px;
+
+}
+
+#jm a {
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px -1350px;
+
+}
+
+#jm a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') 0px -1350px;
+  opacity: 1;
+}
+
+#lance{
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -1200px;
+
+}
+
+#lance a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -1350px;
+
+}
+
+#lance a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -150px -1350px;
+  opacity: 1;
+}
+
+#jin{
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px -1200px;
+
+}
+
+#jin a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px -1350px;
+
+}
+
+#jin a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -300px -1350px;
+  opacity: 1;
+}
+
+#leonard {
+  
+  background: url('../img/rnd-members/members-sprite.png') -450px -1200px;
+
+}
+
+#leonard a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -450px -1350px;
+
+}
+
+#leonard a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -450px -1350px;
+  opacity: 1;
+}
+
+#keith {
+
+  background: url('../img/rnd-members/members-sprite.png') -600px -1200px;
+
+}
+
+#keith a {
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px -1350px;
+  
+}
+
+#keith a:hover {
+  
+  background: url('../img/rnd-members/members-sprite.png') -600px -1350px;
+  opacity: 1;
+}
+
+/* END OF TRAINING DIVISION*/
+
+
+/* FACULTY MEMBERS*/
+
+#danny-sando-boy {
+  
+  background: url('../img/faculty-sprite.png');
+
+}
+
+#danny-sando-boy p{
+  
+  background: url('../img/faculty-sprite.png')0px -150px;
+
+}
+
+#danny-sando-boy p:hover {
+  
+  background: url('../img/faculty-sprite.png')0px -150px;
+  opacity: 1;
+} 
+
+#bringula {
+  
+  background: url('../img/faculty-sprite.png') -150px 0px;
+
+}
+
+#bringula p {
+  
+  background: url('../img/faculty-sprite.png') -150px -150px;
+
+}
+
+#bringula p:hover {
+  
+  background: url('../img/faculty-sprite.png') -150px -150px;
+  opacity:1;
+
+}
+
+#bana {
+  
+  background: url('../img/faculty-sprite.png')-300px 0px;
+  
+}
+
+#bana p{
+  
+  background: url('../img/faculty-sprite.png')-300px -150px;
+
+}
+
+#bana p:hover {
+  
+  background: url('../img/faculty-sprite.png')-300px -150px;
+  opacity: 1;
+}
+
+#ventura {
+  
+  background: url('../img/faculty-sprite.png')-450px 0px;
+
+}
+
+#ventura p{
+  
+  background: url('../img/faculty-sprite.png') -450px -150px;
+
+}
+
+#ventura p:hover {
+  
+  background: url('../img/faculty-sprite.png')-450px -150px;
+  opacity: 1;
+  
+}
+
+#afable {
+  
+  background: url('../img/faculty-sprite.png')-600px 0px;
+
+}
+
+#afable p{
+
+  background: url('../img/faculty-sprite.png')-600px -150px;
+
+}
+
+#afable p:hover {
+  
+  background: url('../img/faculty-sprite.png')-600px -150px;
+  opacity: 1;
+
+}
+
+#manabat {
+  
+  background: url('../img/faculty-sprite.png')-750px 0px;
+
+}
+
+#manabat p{
+  
+  background: url('../img/faculty-sprite.png')-750px -150px;
+
+}
+
+#manabat p:hover{
+  
+  background: url('../img/faculty-sprite.png')-750px -150px;
+  opacity: 1;
+}
+
+#borebor {
+  
+  background: url('../img/faculty-sprite.png')-900px 0px;
+
+}
+
+#borebor p{
+  
+  background: url('../img/faculty-sprite.png')-900px -150px;
+
+}
+
+#borebor p:hover{
+  
+  background: url('../img/faculty-sprite.png')-900px -150px;
+  opacity: 1;
+  
+}
+
+#san-diego{
+  
+  background: url('../img/faculty-sprite.png')-1050px 0px;
+  
+}
+
+#san-diego p {
+  
+  background: url('../img/faculty-sprite.png')-1050px -150px;
+  
+}
+
+#san-diego p:hover{
+  
+  background: url('../img/faculty-sprite.png')-1050px -150px;
+  opacity: 1;
+  
+}
+
+#dela-cruz {
+  
+  background: url('../img/faculty-sprite.png')-1200px 0px;
+
+}
+
+#dela-cruz p {
+  
+  background: url('../img/faculty-sprite.png')-1200px -150px;
+
+}
+
+#dela-cruz p:hover {
+  
+  background: url('../img/faculty-sprite.png')-1200px -150px;
+  opacity: 1;
+}
+/* END OF FACULTY MEMBERS*/
+
+#wave-border {
+  
+  background-image: url('../img/wave-border.png');
+  background-repeat: repeat-x;
+  background-color: #3366cc;
+}
+
+/* End of Members */
+
+/* Contact Us */  
+
+#contact-us {
+  background-image: url('../img/aquatic-life.png');
+  background-color: #3366cc;
+  height: 100%;
+}
+
+#contact-us .container {
+  
+  text-align:center;
+}
+
+#form-container {
+  
+  background: #fff;
+  width: 80%;
+  height: 80%;
+  margin: 0px auto;
+}
+
+#contact-form {
+  
+  background: #003399;
+  width: 40%;
+  height: 90%;
+  
+}
+
+#header1 h2, #header2 h2 {
+  font-family: 'Segoe UI', 'Myriad Pro',sans-serif;
+  font-weight: 300; 
+  font-size: 24px;
+  text-align: center;
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+#contact-us div[class^="span"] {
+  margin-left: 0;
+  height: 400px;
+  text-align: left;
+}
+
+#contact-us div[class^="span"] input[type="text"],
+#contact-us div[class^="span"] input[type="email"] {
+  height: 30px;
+  width: 80%;
+}
+
+#contact-us div[class^="span"] textarea {
+  height: 150px;
+  width: 80%;
+}
+
+#contact-form td{
+  
+  padding:10px;
+  margin: 5px;
+}
+#contact-form textarea, #contact-form input[type="text"]{  
+    border-radius: 0;
+    width: 304px;
+    height: 40px;
+}
+
+#contact-us h2 {
+  font-weight: 500;
+  text-align: left;
+}
+
+#contact-form input[type="submit"]{
+  color: #000066;
+  font-family: 'Segoe UI', 'Myriad Pro',sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 181%;
+  width: 100px;
+  height: 40px;
+  background: #fff;
+  border: none;
+  
+
+}
+
+#contact-form input[type="submit"]:hover {
+  
+  background: #15156e;
+  color: #fff;
+  
+}
+
+#contact-us a, #contact-us a:link, #contact-us a:active, #contact-us a:visited {
+  text-decoration: none  !important;
+  color: #fff !important;
+}
+
+.big {
+  text-align: center;
+  font-weight: 700;
+  color: rgba(0,0,0,0.7);
+  text-transform: uppercase;
+}
+
+#contact-us button {
+  display: block;
+  text-align: right;
+}
+
+/* End of Contact Us*/
